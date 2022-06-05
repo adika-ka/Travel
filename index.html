@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="icon" type="image/ico" href="./img/icons/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__content">
+                    <a class="header__logo" href="#">
+                        <img class="logo__img" src="./img/icons/logo.svg" alt="#">
+                        <div class="logo__text">Travel Portal</div>
+                    </a>
+                    <nav class="header__menu">
+                        <ul class="menu__links">
+                            <li class="menu__link">
+                                <a class="menu-list__link" href="#preview">How It Works</a>
+                            </li>
+                            <li class="menu__link">
+                                <a class="menu-list__link" href="#steps">Plan Your Trip</a>
+                            </li>
+                            <li class="menu__link">
+                                <a class="menu-list__link" href="#destinations">Destinations</a>
+                            </li>
+                            <li class="menu__link">
+                                <a class="menu-list__link" href="#stories">Travel Stories</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__login">
+                        <button class="login__btn">Login</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="content">
+            <section class="preview" id="preview">
+                <div class="container">
+                    <div class="preview__content">
+                        <h1 class="preview__title">Explore the beauty of the World</h1>
+                        <div class="preview__sub-title">Recieve personalized recommendations for countries, hotels, activities and more</div>
+                        <div class="preview__search">
+                            <input class="search__input" placeholder="What would you like to do?" type="text" >
+                            <button class="search__btn btn">Start Planning</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="steps" id="steps">
+                <div class="container">
+                    <h2 class="steps__label label">3 STEPS TO THE PERFECT TRIP</h2>
+                    <div class="steps__items">
+                        <div class="steps__item">
+                            <div class="steps-item__logo">
+                                <img src="./img/icons/step0.svg" alt="#">
+                            </div>
+                            <div class="steps-item__text">Tell us what you want to do</div>
+                        </div>
+                        <div class="steps__item">
+                            <div class="steps-item__logo">
+                                <img src="./img/icons/step1.svg" alt="#">
+                            </div>
+                            <div class="steps-item__text">Share us preferable dates </div>
+                        </div>
+                        <div class="steps__item">
+                            <div class="steps-item__logo">
+                                <img src="./img/icons/step2.svg" alt="#">
+                            </div>
+                            <div class="steps-item__text">We will give you recommendations</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="destinations" id="destinations">
+                <h2 class="destinations__label label">POPULAR DESTINATIONS</h2>
+                <div class="destinations-slider swiper-container">
+                    <div class="destinations-slider__wrapper swiper-wrapper">
+                        <div class="destinations-slider__slide swiper-slide">
+                            <div class="destinations-slider__image">
+                                <img src="./img/destinations-0.jpg" alt="#">
+                            </div>
+                            <div class="destinations-slider__text">SPAIN</div>
+                        </div>
+                        <div class="destinations-slider__slide swiper-slide">
+                            <div class="destinations-slider__image">
+                                <img src="./img/destinations-1.jpg" alt="#">
+                            </div>
+                            <div class="destinations-slider__text">JAPAN</div>
+                        </div>
+                        <div class="destinations-slider__slide swiper-slide">
+                            <div class="destinations-slider__image">
+                                <img src="./img/destinations-2.jpg" alt="#">
+                            </div>
+                            <div class="destinations-slider__text">USA</div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div> -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <button class="destinations__btn btn btn-arrow">Find More</button>
+            </section>
+            <section class="stories" id="stories">
+                <h2 class="stories__label label">TRAVEL STORIES</h2>
+                <div class="stories__content">
+                    <div class="stories__content-body">
+                        <div class="container">
+                            <div class="stories__items">
+                                <div class="stories__item">
+                                    <div class="stories-item__img">
+                                        <img src="./img/stories-0.jpg" alt="">
+                                    </div>
+                                    <div class="stories-item__content">
+                                        <div class="item-content__title">10 Photos of Attractive Thailand</div>
+                                        <div class="item-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+                                        <div class="item-content__link">Read More</div>
+                                    </div>
+                                </div>
+                                <div class="stories__item">
+                                    <div class="stories-item__img">
+                                        <img src="./img/stories-1.jpg" alt="">
+                                    </div>
+                                    <div class="stories-item__content">
+                                        <div class="item-content__title">Canyonlands National Park, Utah</div>
+                                        <div class="item-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+                                        <div class="item-content__link">Read More</div>
+                                    </div>
+                                </div>
+                                <div class="stories__item">
+                                    <div class="stories-item__img">
+                                        <img src="./img/stories-2.jpg" alt="">
+                                    </div>
+                                    <div class="stories-item__content">
+                                        <div class="item-content__title">I left my heart in the Mountains!</div>
+                                        <div class="item-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+                                        <div class="item-content__link">Read More</div>
+                                    </div>
+                                </div>
+                                <div class="stories__item">
+                                    <div class="stories-item__img">
+                                        <img src="./img/stories-3.jpg" alt="">
+                                    </div>
+                                    <div class="stories-item__content">
+                                        <div class="item-content__title">The Longest journey in my life!</div>
+                                        <div class="item-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</div>
+                                        <div class="item-content__link">Read More</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="stories__btn btn btn-arrow">See More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <a class="footer__link github" href="https://github.com/adika-ka">github</a>
+                    <a class="footer__link" href="#">All Rights Reserved © Travel Portal</a>
+                    <div class="footer__list">
+                        <a class="footer-list__link" href="#">
+                            <img src="./img/icons/footer-0.svg" alt="#">
+                        </a>
+                        <a class="footer-list__link" href="#">
+                            <img src="./img/icons/footer-1.svg" alt="#">
+                        </a>
+                        <a class="footer-list__link" href="#">
+                            <img src="./img/icons/footer-2.svg" alt="#">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
